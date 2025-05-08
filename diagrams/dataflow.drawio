@@ -1,0 +1,273 @@
+<mxfile host="65bd71144e">
+    <diagram id="yYHvSsfRDMyKz9mJZRcr" name="Page-1">
+        <mxGraphModel dx="889" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="40" style="edgeStyle=none;shape=link;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="700" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="130" as="sourcePoint"/>
+                        <mxPoint x="200" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="User uploads video&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0255" y="1" relative="1" as="geometry">
+                        <mxPoint x="-3" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="250" as="sourcePoint"/>
+                        <mxPoint x="200" y="250" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="139.16" y="250.44000000000005"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="User&#39;s video&amp;nbsp;&lt;div&gt;selection to server&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="26" vertex="1" connectable="0">
+                    <mxGeometry x="0.407" relative="1" as="geometry">
+                        <mxPoint x="-35" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="500" as="sourcePoint"/>
+                        <mxPoint x="200" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="User marks a flag" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="50" vertex="1" connectable="0">
+                    <mxGeometry x="0.0004" y="4" relative="1" as="geometry">
+                        <mxPoint y="-6" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="40" y="600" as="sourcePoint"/>
+                        <mxPoint x="200" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;span&gt;User classifies flag as&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span&gt;True/False Positive&lt;br&gt;or True Negative&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="56" vertex="1" connectable="0">
+                    <mxGeometry x="0.1762" y="4" relative="1" as="geometry">
+                        <mxPoint x="-13" y="-26" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;shape=link;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="40" y="690" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Client" style="whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="20" width="70" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="210" as="sourcePoint"/>
+                        <mxPoint x="50" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&lt;div&gt;Retrieve videos from video folder&lt;/div&gt;(/get_videos)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1865" relative="1" as="geometry">
+                        <mxPoint x="-61" y="-20" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="50" y="410" as="sourcePoint"/>
+                        <mxPoint x="200" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="User selects video&amp;nbsp;&lt;div&gt;and selects function&lt;div&gt;(/create_training_dataset,&lt;/div&gt;&lt;div&gt;&amp;nbsp;/analyze, etc.)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
+                    <mxGeometry x="-0.3083" y="1" relative="1" as="geometry">
+                        <mxPoint x="28" y="-29" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="290" as="sourcePoint"/>
+                        <mxPoint x="50" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="Flask plays video&lt;br&gt;(/stream_video/&amp;lt;filename&amp;gt;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="28" vertex="1" connectable="0">
+                    <mxGeometry x="0.5855" y="3" relative="1" as="geometry">
+                        <mxPoint x="41" y="-23" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="120" as="sourcePoint"/>
+                        <mxPoint x="420" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="Put video metadata in database&lt;div&gt;(/upload)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="41" vertex="1" connectable="0">
+                    <mxGeometry x="0.0363" y="3" relative="1" as="geometry">
+                        <mxPoint y="-17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="130" as="sourcePoint"/>
+                        <mxPoint x="590" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="Model intakes video&amp;nbsp;&lt;br&gt;(/upload)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="44" vertex="1" connectable="0">
+                    <mxGeometry x="0.1764" y="2" relative="1" as="geometry">
+                        <mxPoint x="71" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="410" as="sourcePoint"/>
+                        <mxPoint x="590" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Model runs selected function&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;(/create_training_dataset, /analyze,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;/plot_trajectories, evaluate_network, /train_network, /create_labed_video)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="46" vertex="1" connectable="0">
+                    <mxGeometry x="0.6496" y="2" relative="1" as="geometry">
+                        <mxPoint x="-113" y="-28" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="170" as="sourcePoint"/>
+                        <mxPoint x="590" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" value="Model&#39;s config file is automatically updated to reflect new video set&lt;div&gt;(/upload)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="48" vertex="1" connectable="0">
+                    <mxGeometry x="-0.4543" y="2" relative="1" as="geometry">
+                        <mxPoint x="90" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="500" as="sourcePoint"/>
+                        <mxPoint x="420" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="65" value="Flask saves flag to database (/set_flag)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52" vertex="1" connectable="0">
+                    <mxGeometry x="0.0875" relative="1" as="geometry">
+                        <mxPoint x="-9" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="600" as="sourcePoint"/>
+                        <mxPoint x="420" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" style="edgeStyle=none;shape=link;html=1;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="689" as="targetPoint"/>
+                        <mxPoint x="200" y="80" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="200" y="377"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3" value="Server" style="whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="150" y="20" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="460" as="sourcePoint"/>
+                        <Array as="points"/>
+                        <mxPoint x="40" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;div&gt;Flask retrives data from database to the client&lt;/div&gt;&lt;div&gt;(/get_results), (/get_all_results)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5" vertex="1" connectable="0">
+                    <mxGeometry x="-0.028" y="-2" relative="1" as="geometry">
+                        <mxPoint x="8" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=none;shape=link;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="594.47" y="690" as="targetPoint"/>
+                        <mxPoint x="594.47" y="80" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Model" style="whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="20" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="540" as="sourcePoint"/>
+                        <mxPoint x="50" y="540" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="Flask retrieves flags from database&lt;div&gt;(/get_flags)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="54" vertex="1" connectable="0">
+                    <mxGeometry x="0.396" y="-1" relative="1" as="geometry">
+                        <mxPoint x="168" y="-19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Database" style="whiteSpace=wrap;html=1;shadow=1;fillColor=#FFFF99;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="20" width="110" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="460" as="sourcePoint"/>
+                        <Array as="points"/>
+                        <mxPoint x="430" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="Algorithm processes .h5 data into JSON&lt;div&gt;then puts into database&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="63" vertex="1" connectable="0">
+                    <mxGeometry x="-0.028" y="-2" relative="1" as="geometry">
+                        <mxPoint x="-22" y="-18" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="Flask gets flag by id then&amp;nbsp;&lt;div&gt;updates classifcation of flag&lt;div&gt;(/&lt;span style=&quot;background-color: transparent;&quot;&gt;update_flag/&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;&amp;lt;int:flag_id&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="540" width="170" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="50" y="340" as="sourcePoint"/>
+                        <mxPoint x="200" y="340" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="User picks video to delete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="68" vertex="1" connectable="0">
+                    <mxGeometry x="0.1755" y="1" relative="1" as="geometry">
+                        <mxPoint x="-22" y="-9" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="200" y="340" as="sourcePoint"/>
+                        <mxPoint x="420" y="340" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="71" value="Flask removes video from directory,&lt;div&gt;deletes&amp;nbsp;video metadata and&amp;nbsp;&lt;/div&gt;&lt;div&gt;video flags from database&lt;div&gt;(delete_video/&amp;lt;int:video_id&amp;gt;)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="70" vertex="1" connectable="0">
+                    <mxGeometry x="0.2166" relative="1" as="geometry">
+                        <mxPoint x="-26" y="-30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="User deletes flag" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry x="-0.2308" y="10" width="100" relative="1" as="geometry">
+                        <mxPoint x="40" y="640" as="sourcePoint"/>
+                        <mxPoint x="200" y="640" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint x="200" y="640" as="sourcePoint"/>
+                        <mxPoint x="420" y="640" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="Flag gets removed from database&lt;br&gt;/delete_flag/&amp;lt;int:flag_id&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="73" vertex="1" connectable="0">
+                    <mxGeometry x="0.3667" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-24" y="-21" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,19 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+      - '**/*'
+extraMetadata:
+  main: build/electron.js
+appId: com.example.myapp
+productName: MyElectronApp
+mac:
+  target: dmg
+win:
+  target: nsis
+linux:
+  target: AppImage
+extends: react-cra
+electronVersion: 33.3.1

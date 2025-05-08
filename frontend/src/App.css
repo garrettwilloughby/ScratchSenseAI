@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-mid-gray {
+  background-color: #ececec !important; /* Adjust shade as needed */
+}
+
+.form-check-input:checked {
+  background-color: #ececec !important; /* Set the checked background color to red */
+  border-color: #ececec !important; /* Set the border color to red */
+}
+
+
+.dft-btn {
+  background-color: #f8f9fa; /* Bootstrap's default .btn background */
+  color: #212529;            /* Bootstrap's default .btn text color */
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 0.375rem;   /* Bootstrap's default rounded corners */
+  padding: 0.375rem 0.75rem; /* Bootstrap default padding */
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.dft-btn:hover {
+  cursor: pointer;
+  background-color: #e2e6ea; /* Slightly darker for contrast */
+  border-color: #adb5bd;
+  color: #212529;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.scaled-tooltip {
+  transform: scale(3); /* make tooltip 30% bigger */
+  margin-left: 1rem; /* space between dropdown and tooltip */
+  transform-origin: left center; /* scale from the left edge */
+}
