@@ -10,8 +10,9 @@ A tool for detecting and analyzing scratching behavior using AI and DeepLabCut.
 - [Anaconda (Miniconda)](https://www.anaconda.com/docs/getting-started/miniconda/install#macos-linux-installation)
 - [Node.js and npm](https://nodejs.org/en/download/)
 - [Python](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
 
-## Mac:
+## Downloads:
 
 1. Clone this repository `git clone https://github.com/garrettwilloughby/Senior-Design.git`
 2. Install the ScratchSense model [Google Drive](https://drive.google.com/drive/folders/11jlGR6Ucsduge_vpA_GitBmvsnez-NZ3?usp=drive_link)
@@ -31,3 +32,17 @@ A tool for detecting and analyzing scratching behavior using AI and DeepLabCut.
 4. Install deeplabcut `conda install -c conda-forge deeplabcut`
 5. Install rest of requirements `pip install -r requirements.txt`
 6. Run the backend `python run.py`
+
+## Beyond first start up
+
+### Frontend:
+
+1. Navigate to /frontend `cd frontend`
+2. Run the frontend `npm run start`
+
+### Backend:
+
+1. Navivate to /backend `cd backend`
+2. Activate virtual environment `conda activate deeplabcut-env`
+3. Run the backend `python run.py`
+
