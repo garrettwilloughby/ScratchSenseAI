@@ -34,6 +34,7 @@ A tool for detecting and analyzing scratching behavior using AI and DeepLabCut.
 6. Run the backend `python run.py`
 
 ## Beyond first start up
+After performing the getting started section once, use the following commands to run the application
 
 ### Frontend:
 
